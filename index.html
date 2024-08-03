@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>Encriptador Alura.V1</title>
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    
+    <header></header>
+
+    <main>
+
+     <img src="Logo.png" alt="imagenAlura"/>
+
+     <section class="presentacion_contenido">
+      <h1 class="presentacion_contenido_titulo">Encriptador Version.1</strong></h1>
+     </section>
+    
+     <section>
+       <div>
+         <textarea  id="textoAlmacenado" maxlength="490" onclick="validarTexto()" name="texto_Encriptador" class="texto_enclave" type="text" required></textarea>
+       <div class="labelline">Escriba su Texto a Cifrar o Decifrar</div>
+     </div>
+    
+      <div class="division_Botones">
+         <button id="boton1" onclick="copiaUno" class="diseno_enlaces">Encriptar</button>
+        <button id="boton2"  class="diseno_enlaces">Desencriptar</button>
+      </div>
+     </section>
+     <p class="texto_verificacion">Tenga en Cuenta que no se aceptan <strong>Caracteres Especiales</strong> ni <strong>Mayusculas</strong></p>
+     
+     <section>
+        <textarea id="textoCopia" class="mensaje" cols="20" rows="10" placeholder="Aqui se encontraran sus mensajes encriptados o desencriptados. Click abajo para Copiar"></textarea>
+        <div>
+            <button id="extraer"class="copiar">Copiar</button>
+        </div>
+     </section>
+     
+    </main>
+    <script src="app.js"></script>
+</body>
+
+<footer class="pie_De_Pagina">
+    <h6 class="text-center">Desarrollado por Elian Silva Año: 2024</h6>
+</footer>
+
+
+
+</html>
